@@ -55,6 +55,25 @@ const int JUMP_AFTER_BATCHES = 10; // >= 1
     const int TAB2 = 1 << 8;
 #endif
 
+#ifdef P100
+    // 100 bits
+    // answer: ???
+    const char *P_HEX = "ffffffffffffffffffffffff1";
+    const char *FNAME = "3.bin";
+
+    const int TAB1 = 1 << 14;
+    const int TAB2 = 1 << 8;
+#endif
+
+#ifdef P148
+    // 148 bits
+    // answer: ???
+    const char *P_HEX = "fffffffffffffffffffffffffffffffffff59";
+    const char *FNAME = "4.bin";
+
+    const int TAB1 = 1 << 14;
+    const int TAB2 = 1 << 8;
+#endif
 
 
 bitset<DATABITS> PRF_output;
