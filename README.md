@@ -15,7 +15,7 @@ $ make threads=24 target=P74
 ```
 
 - `threads` argument defines the amount of threads to be used in the second step of the attack;
-- `target` argument can be one of **P40, P64, P74, P84**.
+- `target` argument can be one of **P40, P64, P74, P84, P100, P148**.
 
 It requires a C++ compiler to be installed. Clang++ is recommended.
 Furthermore, *libgmp* must be installed.
