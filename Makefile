@@ -8,5 +8,5 @@ target = P40
 CXX=clang++
 
 buildrun:
-	$(CXX) -D$(target) -DNTHREADS=$(threads) -std=c++11 -lstdc++ solve.cpp -o solve -Ofast -lpthread -lgmp
+	$(CXX) -D$(target) -DNTHREADS=$(threads) -std=c++11 -lstdc++ ./solve.cpp -o solve -Ofast -lpthread -lgmp
 	time ./solve
